@@ -144,7 +144,7 @@ Section:Slider({
     Max = 500,
     Default = 100,
     Suffix = "px",
-    Decimals = 0,              -- 0-2 decimal places
+    Decimals = 1,              -- 0-2 decimal places
     Callback = function(Value)
         print("FOV:", Value)
     end
@@ -184,9 +184,7 @@ Section:Button({
     Callback = function()
         print("Teleporting...")
     end
-})
-
-Section:SubButton({  -- Chainable sub-button
+}):SubButton({  -- Chainable sub-button
     Name = "Reset Position",
     Callback = function()
         print("Reset!")
