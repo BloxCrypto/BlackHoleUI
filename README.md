@@ -9,7 +9,7 @@ BlackHoleUI is a modern, feature-rich UI library for Roblox exploit development.
 ## Quick Start
 
 ```lua
-local Library = loadstring(game:HttpGet("https://files.catbox.moe/jzlqfh.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxCrypto/BlackHoleUI/refs/heads/main/BlackHole.lua"))()
 
 local Window = Library:Window({
     Logo = "123748867365417",        -- Logo asset ID
