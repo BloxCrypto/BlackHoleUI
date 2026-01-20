@@ -1849,7 +1849,7 @@ local Library do
             Items["Pages"] = Instances:Create("ScrollingFrame", {
                 Parent = Items["Sidebar"].Instance,
                 AutomaticCanvasSize = Enum.AutomaticSize.Y,
-                ScrollBarThickness = 2,
+                ScrollBarThickness = 3,
                 ScrollBarImageTransparency = 0,
                 CanvasSize = UDim2New(0, 0, 0, 0),
                 ScrollBarImageColor3 = Library.Theme.Accent,
@@ -1863,7 +1863,9 @@ local Library do
                 Size = UDim2New(1, 0, 1, -103),
                 ZIndex = 2,
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(255, 255, 255)
+                BackgroundColor3 = FromRGB(255, 255, 255),
+                Active = true,
+                CanScroll = true
             })  Items["Pages"]:AddToTheme({ScrollBarImageColor3 = "Accent"})
 
             Instances:Create("UIListLayout", {
