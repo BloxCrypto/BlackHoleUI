@@ -184,7 +184,9 @@ Section:Button({
     Callback = function()
         print("Teleporting...")
     end
-}):SubButton({  -- Chainable sub-button
+})
+
+Section:SubButton({  -- Chainable sub-button
     Name = "Reset Position",
     Callback = function()
         print("Reset!")
