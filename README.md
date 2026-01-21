@@ -64,7 +64,7 @@ local Window = Library:Window({
 ```lua
 local Page1 = Window:Page({
     Icon = "109391165290124",  -- Page icon asset ID or lucide.dev
-    Search = true              -- Enable search bar
+    Search = true              -- Enable search bar (Search Bar is in BETA)
 })
 
 Window:Seperator() -- Visual separator in sidebar
