@@ -71,7 +71,7 @@ Window:Seperator() -- Visual separator in sidebar
 ```
 
 **Icons Available:** Use `Library.Icons["icon_name"]` or raw asset IDs
-- 64+ Lucide.dev icons included
+- 100+ Lucide.dev icons included
 - Custom asset IDs supported
 
 ## SubPages
