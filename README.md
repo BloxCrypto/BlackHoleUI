@@ -2,7 +2,7 @@
 
 **Roblox UI Library**  
 **Modified by: Leviform**  
-**Current Version: 1.2 (January 2026)**
+**Current Version: 1.3 (January 2026)**
 
 BlackHoleUI is a modern, feature-rich UI library for Roblox exploit development. It features smooth animations, mobile support, advanced theming, and comprehensive UI elements.
 
